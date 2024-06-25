@@ -1,0 +1,104 @@
+@use'reset';
+@use'header';
+@use'footer';
+
+.wrap-3 {background: url(../Images/bg3.png) no-repeat center/cover, #333333;position: relative; z-index: 0;}
+.wrap-3::before{
+    content: '';
+    position: absolute;
+    background: rgba(51, 51, 51,0.75);
+    display: block;
+    z-index: -1;
+    inset: 0;
+}
+.wrap-3 .ave p{text-align: center; font: bold 300px var(--ff); color: rgba(94, 94, 94,0.22); }
+.wrap-3 .brand{position: absolute; bottom: 150px; left: 20%; transform: translateX(-10%); text-align: center; color: #fff;}
+.wrap-3 h2{font: bold 48px/54px var(--ff);}
+.wrap-3 h2 span{font: 300 48px/54px var(--ff);}
+.wrap-3 h3{font: 400 30px/54px var(--ff);}
+.wrap-3 h3 span{color: #00c8c8;}
+
+.wrap-4{margin: 50px 0 0 0;}
+.wrap-4 img{max-width: 100%; height: auto;}
+.wrap-4 h2{font: 400 18px/20px var(--ff);color: #575153; padding-bottom: 20px;}
+.wrap-4 .review{color: #8c8c8c;font: 400 15px / 22px Roboto;}
+.wrap-4 .review .rating{color: #727272; padding: 0 10px;}
+.wrap-4 .review .rating span{color:#e2c762;}
+.wrap-4 .review a{color: #8c8c8c; padding: 10px;}
+.wrap-4 a:hover{color: #00c8c8;}
+.wrap-4 .review span,.share{color: #727272;}
+.wrap-4 .rupay p{font: 300 30px var(--ff); padding: 1rem 0 2rem 0;}
+.wrap-4 .stock p{font: 400 15px/30px var(--ff); color: #575153;}
+.wrap-4 .stock span{font: 400 13px/30px Roboto; color: #8c8c8c;}
+.wrap-4 .stock .sp3{color: #00c8c8;}
+.wrap-4 .discription{padding: 2rem 0;}
+.wrap-4 .discription p{font: 400 15px Roboto; color: #a5a3a3;}
+.wrap-4 .discription ul{font: 400 15px/20px Roboto; color: #a5a3a3; list-style: disc inside; padding: 10px 0;}
+
+.wrap-4 .selects label{font: 400 13px/30px var(--ff); color: #575153;}
+.wrap-4 .selects select{font: 400 13px/30px var(--ff); background: #fff; border: 1px solid #e7e7e7; width: 170px; padding: 10px; margin: 0 30px 60px 0;}
+.wrap-4 .selects .number{width: 70px;}
+
+.wrap-4 .btn a{font: 400 16px var(--ff); color: #454647; padding: 10px 30px; border: 2px solid #737373; background: transparent; margin: 0 26px 26px 0; display: inline-block;}
+.wrap-4 .btn a:hover{background: #333333; color: #fff; border-color:#333333;}
+.wrap-4 .circles{width: 40px; height: 40px; border-radius: 50%; background: #727272; display: grid; place-items: center;}
+.wrap-4 .circles span{color: #fff;}
+.wrap-4 .add a{font: 400 14px var(--ff); color: #454647; margin-left: 12px;}
+
+
+.wrap-4-1{margin-top: 2.5rem;}
+.wrap-4-1 .tab{background: #f8f8f8; padding: 10px 0;}
+.wrap-4-1 .tab a{font: 400 16px/20px var(--ff); color: #575153; padding: 10px 20px; margin-right: 40px; display: inline-block;}
+.wrap-4-1 .tab a:hover{background: #333333; color: #fff;}
+.wrap-4-1 h2{font: 400 13px/20px var(--ff); color: #727272; padding: 10px 10px 10px 1rem;}
+.wrap-4-1 .text p{font: 400 15px/22px Roboto; color: #8e8c8c; padding: 10px 10px 10px 1rem;}
+.wrap-4-1 .text{display: none;}
+.wrap-4-1 .text.tab1{display: block;}
+
+
+
+@media screen and (max-width:1220px){
+    .wrap-3 h3 {font: 400 20px / 54px var(--ff);}
+    .wrap-4 .review {font: 400 12px / 22px Roboto;}
+    .wrap-4 .btn a {padding: 10px 20px;}
+}
+
+@media screen and (max-width:980px){
+    .wrap-3 .brand {bottom: 115px;}
+    .wrap-3 h2 {font: bold 40px / 54px var(--ff);}
+    .wrap-3 h2 span{font: 400 40px/54px var(--ff);}
+    .wrap-3 h3 {font: 500 21px / 54px var(--ff);}
+    .wrap-3 .ave p {font: bold 265px var(--ff);}
+    .wrap-3 h3 {font: 500 16px / 54px var(--ff);}
+    .wrap-4 h2 {padding-top: 25px;}
+    .wrap-4-1 .tab a {margin-right: 0px;}
+}
+
+@media screen and (max-width:767px){
+    .wrap-3 .brand{bottom: 75px;}
+    .wrap-3 h2 {font: bold 35px / 54px var(--ff);}
+    .wrap-3 h2 span{font: 400 35px/54px var(--ff);}
+    .wrap-3 .ave p {font: bold 215px var(--ff);}
+    .wrap-3 h3 {font: 500 15px / 54px var(--ff);}
+    .wrap-4-1 .tab a {margin-right: 10px; padding: 5px 10px;}
+}
+
+@media screen and (max-width:460px){
+    .wrap-3 .brand{bottom: 40px;}
+    .wrap-3 h2 {font: bold 16px / 28px var(--ff);}
+    .wrap-3 h2 span{font: 400 16px/28px var(--ff);}
+    .wrap-3 h3 {font: 500 7px / 20px var(--ff);}
+    .wrap-3 .ave p {font: bold 120px var(--ff);}
+    .wrap-4 .review {font: 400 9px / 22px Roboto;}
+    .wrap-4 .review .rating{color: #727272; padding: 0 5px;}
+    .wrap-4 .review a{color: #8c8c8c; padding: 5px;}
+    .wrap-4 .selects select {font: 400 10px / 30px var(--ff); width: 120px; padding: 5px; margin: 0 12px 35px 0;}
+    .wrap-4 .btn a {padding: 8px 10px; font: 400 13px var(--ff); margin: 0 10px 26px 0;}
+    .wrap-4-1 .tab a {margin-right: 5px; font: 400 7px / 20px var(--ff); padding: 5px 5px;}
+    .wrap-4-1 h2 {font: 400 9px / 20px var(--ff); padding: 10px 0 10px 1rem;}
+    .wrap-4-1 .text p {font: 400 12px / 22px Roboto;}
+}
+
+@media screen and (max-width:359px){
+
+}

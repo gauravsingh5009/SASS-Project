@@ -1,0 +1,79 @@
+@use 'reset';
+@use 'header';
+@use 'footer';
+
+.wrap-2 .container-lg{background: url(../Images/background.png) no-repeat #f8f8f8;}
+.wrap-2 .text{text-align: center; margin-top: 48px;}
+.wrap-2 .text p{font: bold 450px var(--ff); color: #575153;}
+
+.wrap-2 .btn{margin: 65px 0; text-align: center;}
+.wrap-2 .btn a{display: inline-block;border: 2px solid #737373;color: #454647; padding: 10px; width: 80%; font: 16px var(--ff);}
+
+// .wrap-3{background-color: #00c8c8;}
+.wrap-3 hr{margin: 60px 0 34px 0;}
+.wrap-3 .lists li a{color: #727272; font-size: 13px; font-family: var(--ff); margin-right: 20px; display: block; padding: 10px;}
+.wrap-3 .lists li a:hover{color: #00c8c8;}
+/* .wrap-3 .lists{margin-bottom: 20px;} */
+
+.wrap-3 img{max-width: 100%; height: auto;}
+.wrap-3 .midd{margin-top: 30px;}
+.wrap-3 .pos{position: relative;}
+.wrap-3 .pos .price{position: absolute; top: 5px; left: 5px; font: 300 21px var(--ff); color: #9a9a9a;}
+
+.wrap-3 .caption{position: absolute; left: 0; right: 0; background: #fff; text-align: center; z-index: 10;}
+.wrap-3 .caption h2{font: 600 13px/20px var(--ff); color: #727272; padding: 10px 0;}
+.wrap-3 .caption .para p{font-size: 15px; color: #8b8b8b; font-family: Roboto var(--ff); font-weight: 400;}
+.wrap-3 .circle{width: 40px; height: 40px; border-radius: 50%; background: #727272; margin: 10px 0 20px 10px;}
+.wrap-3 .circle a span{font-size: 17px; line-height: 36px; color: #fff;}
+.wrap-3 .circle:hover{background: #00c8c8;}
+.wrap-3 .caption{display: none; box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+.wrap-3 .xyz:hover .caption{display: block;}
+.wrap-3 .xyz:hover {box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+
+.wrap-4 hr{margin: 60px 0;}
+.wrap-4 .box{max-width: 663px; background: #f8f8f8;}
+.wrap-4 .side{padding: 50px 10px 0;}
+.wrap-4 .box h2{font: bold 33px/54px var(--ff); color: #575153; text-align: right;}
+.wrap-4 .box .book{font: 300 30px var(--ff); color: #575153; text-align: right;}
+.wrap-4 .box p{font:15px/22px Roboto; text-align: right; color: #727272;}
+.wrap-4 .box .view{text-align: right; margin-top: 30px;}
+.wrap-4 .box .view a{font: regular 16px var(--ff); color: #454647; border: 2px solid #727272; display: inline-block; padding: 10px 15px; text-align: center;}
+.wrap-4 .box .view a:hover{background: #00c8c8; color: #fff; border: none; outline: none;}
+
+@media screen and (max-width:1220px){
+    .wrap-2 .text p {font: bold 340px var(--ff);}
+    .wrap-2 .btn a {padding: 12px;width: 100%;display: inline-block;font: 14px var(--ff);}
+    .wrap-3 .pos .price {font: 300 15px var(--ff);}
+    .wrap-3 .caption h2 {font: 600 9px / 20px var(--ff);padding: 5px 0;}
+    .wrap-3 .caption .para p {font-size: 10px;}
+    .wrap-4 .box h2 {font: bold 22px / 44px var(--ff);}
+    .wrap-4 .box p {font: 10px / 20px Roboto;}
+    .wrap-4 .box .book {font: 300 18px var(--ff);}
+    .wrap-4 .box .view a {padding: 10px 10px;}
+}
+@media screen and (max-width:980px){
+    .wrap-2 .text p {font: bold 260px var(--ff);}
+    .wrap-3 .caption h2 {font: 600 6px / 20px var(--ff);}
+    .wrap-3 .caption .para p {font-size: 7px;}
+    .wrap-3 .circle {margin: 5px;}
+    .wrap-3 .pos .price {font: 300 10px var(--ff);}
+    .wrap-4 .box {max-width: 100%; height: auto; margin-bottom: 2rem;}
+    .wrap-4 .side {padding: 50px 50px 0;}
+}
+@media screen and (max-width:767px){
+    .wrap-2 .container-lg{padding: 10px 1rem; background: url(../Images/background.png) no-repeat center/cover #f8f8f8;}
+    .wrap-2 .text p {font: bold 230px var(--ff);}
+    .wrap-2 .btn a {font: 12px var(--ff);}
+    .wrap-3 .lists li a {margin: 0;}
+    .wrap-3 .caption h2 {font: 600 5px / 20px var(--ff);}
+    .wrap-3 .caption .para p {font-size: 6px;}
+    .wrap-3 .circle {margin: 2px;}
+}
+
+@media screen and (max-width:460px){
+    .wrap-2 .text p {font: bold 120px var(--ff);}
+    .wrap-2 .btn a {font: 9px var(--ff); padding: 10px;}
+    .wrap-3 .lists li a {font-size: 7px; padding: 10px 5px; margin-right: 5px;}
+    .wrap-4 .side {padding: 50px 10px 0 0;}
+}

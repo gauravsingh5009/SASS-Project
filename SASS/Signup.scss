@@ -1,0 +1,64 @@
+@use 'reset';
+@use 'header';
+@use 'footer';
+
+.wrap-3 {background: url(../Images/bg3.png) no-repeat center/cover, #333333;position: relative; z-index: 0;}
+.wrap-3::before{
+    content: '';
+    position: absolute;
+    background: rgba(51, 51, 51,0.75);
+    display: block;
+    z-index: -1;
+    inset: 0;
+}
+.wrap-3 .ave p{text-align: center; font: bold 300px var(--ff); color: rgba(94, 94, 94,0.22); }
+.wrap-3 .brand{position: absolute; bottom: 150px; left: 50%; transform: translateX(-50%); text-align: center; color: #fff;}
+.wrap-3 h2{font: bold 48px/54px var(--ff);}
+.wrap-3 h2 span{font: 300 48px/54px var(--ff);}
+.wrap-3 h3{font: 400 30px/54px var(--ff);}
+
+.wrap-4{margin: 50px 0 0 0;}
+.wrap-4 h2{font: 400 18px/20px var(--ff);color: #575153; padding-bottom: 20px;}
+.wrap-4 form input{width: 100%; padding: 10px; margin: 1rem 0; color: #989898; border: 1px solid #e7e7e7; outline: none;}
+.wrap-4 button{font: 400 16px var(--ff); color: #454647; padding: 10px 30px; margin-top: 10px; border: 2px solid #737373; background: transparent;}
+.wrap-4 button:hover{background: #00c8c8; color: #fff; border: 2px solid #00c8c8;}
+.wrap-4 .check{width: 14px; height: 14px; margin: 15px 10px 15px 0;}
+.wrap-4 label,a{font: 400 15px/22px Roboto;}
+.wrap-4 a{color: #00c8c8;}
+
+@media screen and (max-width:1220px){
+    .wrap-4 label, a {font: 400 14px / 22px Roboto;}
+}
+
+@media screen and (max-width:980px){
+    .wrap-3 .brand {bottom: 115px;}
+    .wrap-3 h2 {font: bold 40px / 54px var(--ff);}
+    .wrap-3 h2 span{font: 400 40px/54px var(--ff);}
+    .wrap-3 h3 {font: 500 21px / 54px var(--ff);}
+    .wrap-3 .ave p {font: bold 265px var(--ff);}
+    .wrap-4 button {font: 400 15px var(--ff); padding: 10px 25px;}
+    .wrap-4 label, a {font: 400 9px / 16px Roboto;}
+}
+
+@media screen and (max-width:767px){
+    .wrap-3 .brand{bottom: 75px;}
+    .wrap-3 h2 {font: bold 34px / 54px var(--ff);}
+    .wrap-3 h2 span{font: 400 34px/54px var(--ff);}
+    .wrap-3 h3 {font: 500 20px / 54px var(--ff);}
+    .wrap-3 .ave p {font: bold 215px var(--ff);}
+    .wrap-3 h3 {font: 500 18px / 54px var(--ff);}
+    .wrap-4 button {font: 400 13px var(--ff);padding: 8px 20px;}
+}
+
+@media screen and (max-width:460px){
+    .wrap-3 .brand{bottom: 40px;}
+    .wrap-3 h2 {font: bold 17px / 28px var(--ff);}
+    .wrap-3 h2 span{font: 400 17px/28px var(--ff);}
+    .wrap-3 h3 {font: 500 10px / 20px var(--ff);}
+    .wrap-3 .ave p {font: bold 120px var(--ff);}
+    .wrap-4 .top{margin-top: 40px;}
+}
+
+@media screen and (max-width:359px){
+    .wrap-3 .ave p {font: bold 110px var(--ff);}
+}
