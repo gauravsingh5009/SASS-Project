@@ -297,14 +297,14 @@ body {
 }
 
 .wrap-1 .left, select {
-  color: #777;
+  color: #d0cccc;
   font-size: 13px;
   font-family: var(--ff);
 }
 
 .wrap-1 li a {
   display: block;
-  color: #8b8b8b;
+  color: #d0cccc;
   font-size: 13px;
   font-family: var(--ff);
   padding: 17px 10px;
@@ -324,7 +324,7 @@ body {
 }
 
 .wrap-1 #carts {
-  background: #00c8c8;
+  background: #18c8c8;
   color: #fff;
 }
 
@@ -335,6 +335,11 @@ body {
 
 .wrap-1 .cart select {
   font-size: 13px;
+}
+
+.wrap-1 label {
+  font: 300 14px/30px var(--ff);
+  color: #d0cccc;
 }
 
 .wrap-2 .container-lg {
@@ -627,12 +632,12 @@ body {
 
 .wrap-6 .copyright .p1 {
   font: 400 13px var(--ff);
-  color: #999;
+  color: #d0cccc;
 }
 
 .wrap-6 .copyright .p2 {
   font: 400 13px/20px var(--ff);
-  color: #777;
+  color: #d0cccc;
 }
 
 .wrap-6 .p2 span {
@@ -693,7 +698,7 @@ body {
   }
 }
 .wrap-3 {
-  background: url(../Images/bg3.png) no-repeat center/cover, #333333;
+  background: url(../Images/bg3.webp) no-repeat center/cover, #333333;
   position: relative;
   z-index: 0;
 }

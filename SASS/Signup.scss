@@ -2,7 +2,7 @@
 @use 'header';
 @use 'footer';
 
-.wrap-3 {background: url(../Images/bg3.png) no-repeat center/cover, #333333;position: relative; z-index: 0;}
+.wrap-3 {background: url(../Images/bg3.webp) no-repeat center/cover, #333333;position: relative; z-index: 0;}
 .wrap-3::before{
     content: '';
     position: absolute;

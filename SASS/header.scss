@@ -1,12 +1,13 @@
 .wrap-1,select{background: #333; border: none; outline: none;}
 .wrap-1 li{margin-left: 6px;}
-.wrap-1 .left,select{color: #777; font-size: 13px; font-family: var(--ff);}
-.wrap-1 li a{display: block; color: #8b8b8b; font-size: 13px; font-family: var(--ff);padding: 17px 10px; text-align: center;}
+.wrap-1 .left,select{color: #d0cccc; font-size: 13px; font-family: var(--ff);}
+.wrap-1 li a{display: block; color: #d0cccc; font-size: 13px; font-family: var(--ff);padding: 17px 10px; text-align: center;}
 .wrap-1 li a:hover{background: #00c8c8; color: #fff;}
 .wrap-1 .cart{padding: 10px; text-align: center;background: #00c8c8; color: #fff;}
-.wrap-1 #carts{background: #00c8c8; color: #fff;}
+.wrap-1 #carts{background: #18c8c8; color: #fff;}
 .wrap-1 .cart span{margin: 5px; font-size: 20px;}
 .wrap-1 .cart select{font-size: 13px; }
+.wrap-1 label {font: 300 14px / 30px var(--ff);color: #d0cccc;}
 
 .wrap-2 .container-lg{padding: 10px 1rem; position: relative;}
 .wrap-2 .logo{text-align: center;}

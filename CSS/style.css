@@ -50,15 +50,15 @@ body{
 /* Custom css */
 .wrap-1,select{background: #333; border: none; outline: none;}
 .wrap-1 li{margin-left: 6px;}
-.wrap-1 .left,select{color: #777; font-size: 13px; font-family: var(--ff);}
-.wrap-1 li a{display: block; color: #8b8b8b; font-size: 13px; font-family: var(--ff);padding: 17px 10px; text-align: center;}
+.wrap-1 .left,select{color: #b6b1b1; font-size: 13px; font-family: var(--ff);}
+.wrap-1 li a{display: block; color: #cec8c8; font-size: 13px; font-family: var(--ff);padding: 17px 10px; text-align: center;}
 .wrap-1 li a:hover{background: #00c8c8; color: #fff;}
 .wrap-1 .cart{padding: 10px; text-align: center;background: #00c8c8; color: #fff;}
 .wrap-1 #carts{background: #00c8c8; color: #fff;}
 .wrap-1 .cart span{margin: 5px; font-size: 20px;}
 .wrap-1 .cart select{font-size: 13px; }
 
-.wrap-2 .container-lg{padding: 10px 1rem; background: url(../Images/background.png) no-repeat #f8f8f8; position: relative;}
+.wrap-2 .container-lg{padding: 10px 1rem; background: url(../Images/background.webp) no-repeat #f8f8f8; position: relative;}
 .wrap-2 .logo{text-align: center;}
 .wrap-2 h1 a{color: #222; font: bold 24px var(--ff);}
 .wrap-2 h1 a span{color: #222; font: normal 24px var(--ff);}
@@ -208,7 +208,7 @@ body{
     .col-m-11{flex-basis: 91.66%; max-width: 91.66%;}
     .col-m-12{flex-basis: 100%; max-width: 100%;}
 
-    .wrap-2 .container-lg{padding: 10px 1rem; background: url(../Images/background.png) no-repeat center/cover #f8f8f8;}
+    .wrap-2 .container-lg{padding: 10px 1rem; background: url(../Images/background.webp) no-repeat center/cover #f8f8f8;}
     .wrap-2 .menu{display: none;}
     .wrap-2 .search{display: none;}
     .wrap-2 button{display: block;}

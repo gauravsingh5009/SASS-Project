@@ -1,0 +1,127 @@
+.wrap-5 {
+  background: #f8f8f8;
+  margin-top: 120px;
+}
+
+.wrap-5 h2 {
+  font: 400 13px/20px var(--ff);
+  color: #575153;
+  margin: 50px 0 30px 0;
+}
+
+.wrap-5 .footers a, p, label {
+  font: 300 14px/30px var(--ff);
+  color: #727272;
+}
+
+.wrap-5 .footers {
+  margin-bottom: 45px;
+}
+
+.wrap-5 .award {
+  background: #333333;
+  padding: 50px 0;
+}
+
+.wrap-5 .award h2 {
+  font: bold 36px/48px var(--ff);
+  color: #fff;
+  text-align: center;
+  margin: 0;
+}
+
+.wrap-5 .award p {
+  font: 300 36px/48px var(--ff);
+  color: #fff;
+  text-align: center;
+}
+
+.wrap-5 .social {
+  background: #00c8c8;
+  padding: 65px 0;
+}
+
+.wrap-5 .social a span {
+  font-size: 36px;
+  color: #fff;
+  padding: 15px 25px;
+}
+
+.wrap-6 {
+  background: #333;
+  margin-top: 50px;
+}
+
+.wrap-6 .copyright {
+  padding: 9px 0;
+}
+
+.wrap-6 .copyright .p1 {
+  font: 400 13px var(--ff);
+  color: #d0cccc;
+}
+
+.wrap-6 .copyright .p2 {
+  font: 400 13px/20px var(--ff);
+  color: #d0cccc;
+}
+
+.wrap-6 .p2 span {
+  margin-left: 36px;
+}
+
+@media screen and (max-width: 1220px) {
+  .wrap-5 h2 {
+    font: 400 10px/20px var(--ff);
+    margin: 35px 0 30px 0;
+  }
+  .wrap-5 .footers a, p, label {
+    font: 300 12px/30px var(--ff);
+  }
+}
+@media screen and (max-width: 980px) {
+  .wrap-5 .award h2 {
+    font: bold 30px/48px var(--ff);
+  }
+  .wrap-5 .award p {
+    font: 300 27px/48px var(--ff);
+  }
+}
+@media screen and (max-width: 767px) {
+  .wrap-5 .award h2 {
+    font: bold 27px/48px var(--ff);
+  }
+  .wrap-5 .award p {
+    font: 300 22px/48px var(--ff);
+  }
+  .wrap-5 .social a span {
+    padding: 12px 20px;
+    margin-right: 5px;
+  }
+  .wrap-5 .footers a, p, label {
+    font: 300 10px/18px var(--ff);
+  }
+  .wrap-5 h2 {
+    margin: 20px 0 15px 0;
+  }
+}
+@media screen and (max-width: 460px) {
+  .wrap-5 h2 {
+    font: 400 5px/15px var(--ff);
+  }
+  .wrap-5 .footers a, p, label {
+    font: 300 5px/10px var(--ff);
+  }
+  .wrap-5 .award {
+    margin-bottom: 20px;
+  }
+  .wrap-6 .copyright .p2 {
+    font: 400 6px/14px var(--ff);
+  }
+  .wrap-6 .copyright .p1 {
+    font: 400 6px var(--ff);
+    margin-left: 1px;
+  }
+}
+
+/*# sourceMappingURL=footer.css.map */

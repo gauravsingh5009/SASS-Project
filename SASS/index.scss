@@ -2,7 +2,7 @@
 @use 'header';
 @use 'footer';
 
-.wrap-2 .container-lg{background: url(../Images/background.png) no-repeat #f8f8f8;}
+.wrap-2 .container-lg{background: url(../Images/background.webp) no-repeat #f8f8f8;}
 .wrap-2 .text{text-align: center; margin-top: 48px;}
 .wrap-2 .text p{font: bold 450px var(--ff); color: #575153;}
 
@@ -62,7 +62,7 @@
     .wrap-4 .side {padding: 50px 50px 0;}
 }
 @media screen and (max-width:767px){
-    .wrap-2 .container-lg{padding: 10px 1rem; background: url(../Images/background.png) no-repeat center/cover #f8f8f8;}
+    .wrap-2 .container-lg{padding: 10px 1rem; background: url(../Images/background.webp) no-repeat center/cover #f8f8f8;}
     .wrap-2 .text p {font: bold 230px var(--ff);}
     .wrap-2 .btn a {font: 12px var(--ff);}
     .wrap-3 .lists li a {margin: 0;}
